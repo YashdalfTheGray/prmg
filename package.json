@@ -1,0 +1,23 @@
+{
+  "name": "prmg",
+  "version": "1.0.0",
+  "description": "psuedo-random movie generator",
+  "main": "public/main.js",
+  "scripts": {
+    "test": "nyc ava"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YashdalfTheGray/prmg.git"
+  },
+  "keywords": [
+    "movie",
+    "prng"
+  ],
+  "author": "Yash Kulshrestha",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/YashdalfTheGray/prmg/issues"
+  },
+  "homepage": "https://github.com/YashdalfTheGray/prmg#readme"
+}
