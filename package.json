@@ -4,7 +4,9 @@
   "description": "psuedo-random movie generator",
   "main": "public/main.js",
   "scripts": {
-    "test": "nyc ava"
+    "test": "nyc ava",
+    "prepare": "husky install",
+    "lint-staged": "lint-staged"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,11 @@
     "url": "https://github.com/YashdalfTheGray/prmg/issues"
   },
   "homepage": "https://github.com/YashdalfTheGray/prmg#readme",
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx,json,scss,css,md}": [
+      "prettier --write"
+    ]
+  },
   "dependencies": {
     "@material-ui/core": "~4.11.4",
     "@material-ui/icons": "~4.11.2",
