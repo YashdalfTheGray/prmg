@@ -19,6 +19,8 @@
   },
   "plugins": ["react", "@typescript-eslint", "prettier"],
   "rules": {
-    "sort-imports": ["error", { "allowSeparatedGroups": true }]
+    "sort-imports": ["error", { "allowSeparatedGroups": true }],
+    "no-else-return": ["off"],
+    "@typescript-eslint/explicit-module-boundary-types": ["off"]
   }
 }
