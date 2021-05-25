@@ -47,7 +47,7 @@
     "core-js": "^3.12.1",
     "css-loader": "~5.2.5",
     "cssnano": "~5.0.2",
-    "dotenv": "^9.0.2",
+    "dotenv": "^10.0.0",
     "eslint": "^7.26.0",
     "eslint-config-airbnb": "~18.2.1",
     "eslint-config-prettier": "~8.3.0",
