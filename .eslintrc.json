@@ -19,6 +19,9 @@
   },
   "plugins": ["react", "@typescript-eslint", "prettier"],
   "rules": {
+    "no-else-return": ["off"],
+    "no-undef": ["off"],
+    "no-use-before-define": ["off"],
     "sort-imports": ["error", { "allowSeparatedGroups": true }],
     "no-else-return": ["off"],
     "@typescript-eslint/explicit-module-boundary-types": ["off"]
