@@ -4,9 +4,9 @@
     "es2021": true
   },
   "extends": [
+    "airbnb",
     "plugin:react/recommended",
     "plugin:@typescript-eslint/recommended",
-    "airbnb",
     "prettier"
   ],
   "parser": "@typescript-eslint/parser",
@@ -23,7 +23,11 @@
     "no-undef": ["off"],
     "no-use-before-define": ["off"],
     "sort-imports": ["error", { "allowSeparatedGroups": true }],
-    "no-else-return": ["off"],
-    "@typescript-eslint/explicit-module-boundary-types": ["off"]
+    "react/jsx-filename-extension": [
+      "error",
+      { "allow": "as-needed", "extensions": [".tsx", ".jsx"] }
+    ],
+    "@typescript-eslint/explicit-module-boundary-types": ["off"],
+    "@typescript-eslint/no-use-before-define": ["error"]
   }
 }
