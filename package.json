@@ -59,7 +59,7 @@
     "firebase": "^8.6.8",
     "husky": "~7.0.1",
     "lint-staged": "^11.1.2",
-    "mini-css-extract-plugin": "~2.1.0",
+    "mini-css-extract-plugin": "~2.3.0",
     "nyc": "~15.1.0",
     "postcss": "~8.2.13",
     "postcss-loader": "^6.1.1",
