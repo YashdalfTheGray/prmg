@@ -28,7 +28,7 @@
     ]
   },
   "dependencies": {
-    "@material-ui/core": "~4.11.4",
+    "@material-ui/core": "~4.12.3",
     "@material-ui/icons": "~4.11.2",
     "@types/react": "~17.0.19",
     "@types/react-dom": "~17.0.9",
@@ -66,7 +66,7 @@
     "prettier": "^2.3.1",
     "regenerator-runtime": "~0.13.7",
     "sass": "~1.42.1",
-    "sass-loader": "^12.1.0",
+    "sass-loader": "^12.2.0",
     "ts-loader": "~9.2.3",
     "ts-node": "~10.1.0",
     "typescript": "~4.4.3",
