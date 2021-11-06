@@ -30,7 +30,7 @@
   "dependencies": {
     "@material-ui/core": "~4.12.3",
     "@material-ui/icons": "~4.11.2",
-    "@types/react": "~17.0.19",
+    "@types/react": "~17.0.34",
     "@types/react-dom": "~17.0.9",
     "react": "~17.0.2",
     "react-dom": "~17.0.2"
@@ -53,7 +53,7 @@
     "eslint-config-prettier": "~8.3.0",
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-jsx-a11y": "~6.4.1",
-    "eslint-plugin-prettier": "~3.4.0",
+    "eslint-plugin-prettier": "~4.0.0",
     "eslint-plugin-react": "~7.24.0",
     "eslint-plugin-react-hooks": "~4.2.0",
     "firebase": "^9.0.2",
