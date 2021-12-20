@@ -62,7 +62,7 @@
     "mini-css-extract-plugin": "~2.4.5",
     "nyc": "~15.1.0",
     "postcss": "~8.4.5",
-    "postcss-loader": "^6.1.1",
+    "postcss-loader": "^6.2.1",
     "prettier": "^2.3.1",
     "regenerator-runtime": "~0.13.7",
     "sass": "~1.42.1",
