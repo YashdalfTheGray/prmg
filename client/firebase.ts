@@ -2,14 +2,17 @@
 // is already included. This is why TSLint is better
 // but we can't have nice things.
 /* eslint-disable import/no-extraneous-dependencies */
-import firebase from 'firebase/app';
+import { collection, getFirestore } from 'firebase/firestore';
+import { getApp, initializeApp } from 'firebase/app';
 
-import 'firebase/firestore';
+export { getFirestore } from 'firebase/firestore';
 /* eslint-enable import/no-extraneous-dependencies */
 
 export function initFirebase() {
-  if (firebase.apps.length === 0) {
-    return firebase.initializeApp({
+  try {
+    return getApp();
+  } catch (_) {
+    return initializeApp({
       apiKey: FIREBASE_API_KEY,
       authDomain: `${FIREBASE_PROJECT_ID}.firebaseapp.com`,
       databaseURL: `https://${FIREBASE_PROJECT_ID}.firebaseio.com`,
@@ -18,17 +21,10 @@ export function initFirebase() {
       messagingSenderId: FIREBASE_MESSAGING_ID,
       appId: FIREBASE_APP_ID,
     });
-  } else {
-    return firebase.app();
   }
 }
 
-export function getFirestore() {
-  const db = firebase.firestore();
-  return db;
-}
-
 export function getFirestoreCollection(collectionName: string) {
-  const db = firebase.firestore();
-  return db.collection(collectionName);
+  const db = getFirestore();
+  return collection(db, collectionName);
 }
