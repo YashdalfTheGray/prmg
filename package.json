@@ -45,7 +45,7 @@
     "@babel/preset-react": "~7.16.7",
     "@typescript-eslint/eslint-plugin": "~5.10.1",
     "@typescript-eslint/parser": "~5.30.6",
-    "ava": "~4.0.1",
+    "ava": "~4.3.1",
     "babel-loader": "~8.2.5",
     "core-js": "~3.21.1",
     "css-loader": "~6.5.1",
