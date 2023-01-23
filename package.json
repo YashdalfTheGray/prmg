@@ -60,7 +60,7 @@
     "eslint-plugin-react": "~7.31.8",
     "eslint-plugin-react-hooks": "~4.6.0",
     "firebase": "~9.15.0",
-    "husky": "~8.0.2",
+    "husky": "~8.0.3",
     "lint-staged": "~13.1.0",
     "mini-css-extract-plugin": "~2.7.2",
     "nyc": "~15.1.0",
