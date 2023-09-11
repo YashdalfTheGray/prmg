@@ -64,7 +64,7 @@
     "lint-staged": "~13.2.3",
     "mini-css-extract-plugin": "~2.7.6",
     "nyc": "~15.1.0",
-    "postcss": "~8.4.14",
+    "postcss": "~8.4.29",
     "postcss-loader": "~7.3.3",
     "prettier": "~2.8.8",
     "regenerator-runtime": "~0.13.9",
