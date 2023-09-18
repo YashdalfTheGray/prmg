@@ -67,7 +67,7 @@
     "postcss": "~8.4.29",
     "postcss-loader": "~7.3.3",
     "prettier": "~2.8.8",
-    "regenerator-runtime": "~0.13.9",
+    "regenerator-runtime": "~0.14.0",
     "sass": "~1.66.1",
     "sass-loader": "~13.3.2",
     "ts-loader": "~9.4.4",
