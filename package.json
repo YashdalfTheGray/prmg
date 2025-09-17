@@ -47,7 +47,7 @@
     "@typescript-eslint/parser": "~7.3.1",
     "ava": "~6.4.1",
     "babel-loader": "~9.2.1",
-    "core-js": "~3.40.0",
+    "core-js": "~3.45.1",
     "css-loader": "~7.1.2",
     "cssnano": "~7.0.6",
     "dotenv": "~17.2.1",
