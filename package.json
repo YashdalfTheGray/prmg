@@ -34,9 +34,9 @@
     "@mui/material": "~5.18.0",
     "@mui/styles": "~6.5.0",
     "@types/react": "~19.2.16",
-    "@types/react-dom": "~19.0.4",
+    "@types/react-dom": "~19.2.3",
     "react": "~19.2.7",
-    "react-dom": "~19.0.0"
+    "react-dom": "~19.2.7"
   },
   "devDependencies": {
     "@babel/core": "~7.29.7",
